@@ -1,0 +1,44 @@
+{
+  "name": "eestec-discord-bot",
+  "version": "1.0.0",
+  "description": "Bot for EESTEC LC Skopje's discord server",
+  "main": "src/main.ts",
+  "scripts": {
+    "build": "rimraf dist && tsc",
+    "dev": "rimraf dist && tsc && node dist/main.js",
+    "start": "node dist/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eestec-sk/EESTEC-Discord-Bot.git"
+  },
+  "keywords": [
+    "eestec"
+  ],
+  "author": "Novica Paunovski, Petar Hristovski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eestec-sk/EESTEC-Discord-Bot/issues"
+  },
+  "homepage": "https://github.com/eestec-sk/EESTEC-Discord-Bot#readme",
+  "dependencies": {
+    "discord-api-types": "^0.37.76",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5",
+    "winston": "^3.13.0",
+    "rimraf": "^5.0.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@swc/core": "^1.4.8",
+    "@swc/helpers": "^0.5.6",
+    "eslint": "^8.57.0",
+    "eslint-config-canonical": "^42.8.1",
+    "nodemon": "^3.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.3"
+  },
+  "type": "module"
+}
