@@ -13,8 +13,8 @@ RUN npm install
 # Copy the bot code
 COPY . .
 
-# Set environment variables (make sure to replace BOT_TOKEN if you don't use .env)
-ENV NODE_ENV=production
+# Build the TypeScript code
+RUN npm run build
 
 # Run the bot
-CMD ["node", "bot.js"]
+CMD ["npm", "start"]

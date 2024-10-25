@@ -1,0 +1,7 @@
+services:
+  discord-bot:
+    image: eestecer
+    environment:
+      - APPLICATION_ID=${APPLICATION_ID}
+      - TOKEN=${TOKEN}
+      - NODE_ENV=production
