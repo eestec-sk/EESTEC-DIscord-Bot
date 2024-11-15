@@ -1,5 +1,5 @@
 export const boardInfoMessages = {
-  currentBoard: `\nEESTEC LC Skopje current board.\n
+  currentBoard: `\nEESTEC LC Skopje 2024/25 board.\n
  \t:superhero: Chairperson: Teodor Krstevski \n
  \t:mailbox: Contact Person: Angela Milenkoska \n
  \t:money_with_wings: FR coordinator: Paulina Kiprevska \n
